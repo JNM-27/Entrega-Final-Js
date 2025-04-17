@@ -1,0 +1,72 @@
+#catalogo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px;
+}
+.itemCatalogo {
+  font-family: "Times New Roman", Times, serif;
+  columns: 2;
+  max-width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.itemCarrito {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  display: flex;
+  justify-content: left;
+}
+#finalizarCompra {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#vaciarCarrito {
+  background-color: #f70303;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#nombreTienda {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+#tituloCatalogo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+}
+#tituloCarrito {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+#precioMaximo {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.botonAgregar {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 29px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.botonRemover {
+  background-color: #f70303;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#nombre {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  text-align: right;
+}
