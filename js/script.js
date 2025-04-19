@@ -142,7 +142,7 @@ function precioMaximo() {
       const botonAgregar = document.getElementById(`agregar${libro.id}`);
       botonAgregar.addEventListener("click", () => sumarAlCarrito(libro));
       const botonRemover = document.getElementById(`remover${libro.id}`);
-      botonRemover.addEventListener("click", () => removerDelCarrito(libro));
+      botonRemover.addEventListener("click", () => removerDelCarrito(libro.id));
     }
   });
 }
