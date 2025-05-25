@@ -7,49 +7,105 @@
   font-family: "Times New Roman", Times, serif;
   columns: 2;
   max-width: 250px;
+  max-height: 250px;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  opacity: 1;
 }
 .itemCarrito {
-  font-family: "Times New Roman", Times, serif;
-  margin: 20px;
-  display: flex;
-  justify-content: left;
+  display: grid;
+  grid-template-columns: 10fr auto auto;
+  align-items: center;
+  gap: 16px;
+  background-color: #f9f9f9;
+  opacity: 1;
+  padding: 16px 24px;
+  margin: 12px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
 }
-#finalizarCompra {
+#imprimirTicket {
   background-color: #4caf50;
   color: white;
   padding: 12px 24px;
   font-size: 16px;
   border-radius: 8px;
 }
-#vaciarCarrito {
-  background-color: #f70303;
+#finCompra {
+  background-color: #4caf50;
   color: white;
   padding: 12px 24px;
   font-size: 16px;
   border-radius: 8px;
 }
+#vaciarCarrito.activo {
+  background-color: #d33;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-size: auto;
+}
 #nombreTienda {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Georgia", "Times New Roman", Times, serif;
   text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ccae63, #7c4a05);
+  padding: 20px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  border: 2px solid #b89c7d;
+  transition: all 0.3s ease;
 }
 #tituloCatalogo {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Georgia", "Times New Roman", Times, serif;
   text-align: left;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ccae63, #7c4a05);
+  padding: 20px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  border: 2px solid #b89c7d;
+  transition: all 0.3s ease;
 }
 #tituloCarrito {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Georgia", "Times New Roman", Times, serif;
   text-align: left;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ccae63, #7c4a05);
+  padding: 20px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  border: 2px solid #b89c7d;
+  transition: all 0.3s ease;
 }
 #precioMaximo {
-  padding: 10px 15px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  padding: 12px 18px;
+  border: 1px solid #b89c7d;
+  border-radius: 10px;
   font-size: 16px;
   box-sizing: border-box;
+  width: 100%;
+  max-width: 250px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  color: #333;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+#precioMaximo:focus {
+  border-color: #b89c7d;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(82, 31, 1, 0.4);
 }
 .botonAgregar {
   background-color: #4caf50;
@@ -58,15 +114,112 @@
   font-size: 16px;
   border-radius: 8px;
 }
-.botonRemover {
-  background-color: #f70303;
+.botonAgregarEnTicket {
+  background-color: #4caf50;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 12px;
+  border: black;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
   font-size: 16px;
-  border-radius: 8px;
+  line-height: 6px;
+  text-align: center;
 }
-#nombre {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
+.botonRemover {
+  background-color: #d33;
+  color: white;
+  padding: 12px 12px;
+  border: black;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 6px;
+  text-align: justify;
+}
+.fotoLibro {
+  width: 100%;
+  max-width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto 10px;
+}
+#avisoCarritoVacio {
+  display: block;
+  grid-template-columns: 10fr auto auto;
+  align-items: center;
+  gap: 16px;
+  background-color: #f9f9f9;
+  opacity: 1;
+  padding: 16px 24px;
+  margin: 12px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.ticketImpreso td,
+th {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: left;
+  background-color: white;
+  color: black;
+  word-wrap: break-word;
+}
+.ticketImpreso table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.ingreso h1 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  text-align: left;
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ccae63, #7c4a05);
+  padding: 0px 0px;
+  margin: 0px;
+  border: 2px solid #b89c7d;
+  width: 100px;
+}
+.ingreso input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+  border: 1px solid #b89c7d;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  color: #333;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+#alumno {
+  font-family: "Georgia", "Times New Roman", Times, serif;
   text-align: right;
+  font-size: 1rem;
+  color: #ffffff;
+}
+body {
+  background-image: url("https://st2.depositphotos.com/1001335/9636/i/450/depositphotos_96367658-stock-photo-bookshelf-full-of-books-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

@@ -1,0 +1,122 @@
+[
+  {
+    "nombre": "El Conde de Montecristo",
+    "año": 1891,
+    "precio": 3000,
+    "id": 1,
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRouBwMwh3DJC9b9rVzl0NGm2gXfTso9j15Pw&s",
+    "contador": 0
+  },
+  {
+    "nombre": "Lord of the Flies",
+    "año": 1951,
+    "precio": 2500,
+    "id": 2,
+    "foto": "https://http2.mlstatic.com/D_NQ_NP_909135-MLA49601054960_042022-O.webp",
+    "contador": 0
+  },
+  {
+    "nombre": "Don Quijote de La Mancha",
+    "año": 1605,
+    "precio": 2000,
+    "id": 3,
+    "foto": "https://i.pinimg.com/736x/b5/0f/9c/b50f9c7c4969883cfa1dfe5a80763529.jpg",
+    "contador": 0
+  },
+  {
+    "nombre": "La Comunidad del Anillo",
+    "año": 1954,
+    "precio": 1500,
+    "id": 4,
+    "foto": "https://http2.mlstatic.com/D_NQ_NP_887167-MLU70876870619_082023-O.webp",
+    "contador": 0
+  },
+  {
+    "nombre": "The Shining",
+    "año": 1977,
+    "precio": 1000,
+    "id": 5,
+    "foto": "https://m.media-amazon.com/images/I/91U7HNa2NQL.jpg",
+    "contador": 0
+  },
+  {
+    "nombre": "El Hobbit",
+    "año": 1937,
+    "precio": 1500,
+    "id": 6,
+    "foto": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/708278-2b728cfbebc707358217402019333104-1024-1024.jpg",
+    "contador": 0
+  },
+  {
+    "nombre": "La Máquina del Tiempo",
+    "año": 1895,
+    "precio": 900,
+    "id": 7,
+    "foto": "https://images.cdn3.buscalibre.com/fit-in/360x360/75/f1/75f189a4ff714a7e2738f470dc789521.jpg",
+    "contador": 0
+  },
+  {
+    "nombre": "El Problema de los Tres Cuerpos",
+    "año": 2006,
+    "precio": 750,
+    "id": 8,
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPT_Hx83EaVR3WWhFv-ySequdTlqARVyzxZA&s",
+    "contador": 0
+  },
+  {
+    "nombre": "El Principito",
+    "año": 1943,
+    "precio": 500,
+    "id": 9,
+    "foto": "https://tienda.planetadelibros.com.ar/cdn/shop/products/portada_el-principito_antoine-de-saint-exupery_201507152131.jpg?v=1684356025",
+    "contador": 0
+  },
+  {
+    "nombre": "It",
+    "año": 1986,
+    "precio": 1750,
+    "id": 10,
+    "foto": "https://images.cdn1.buscalibre.com/fit-in/360x360/ec/c6/ecc6925af7478dd66fce402ea5e3dda0.jpg",
+    "contador": 0
+  },
+  {
+    "nombre": "El Lobo Estepario",
+    "año": 1895,
+    "precio": 1650,
+    "id": 11,
+    "foto": "https://contentv2.tap-commerce.com/cover/large/9788426400598_1.jpg?id_com=717",
+    "contador": 0
+  },
+  {
+    "nombre": "Hamlet",
+    "año": 1623,
+    "precio": 850,
+    "id": 12,
+    "foto": "https://images.cdn1.buscalibre.com/fit-in/360x360/08/a4/08a45da18327d8388b74e7e94c7ad3be.jpg",
+    "contador": 0
+  },
+  {
+    "nombre": "Romeo y Julieta",
+    "año": 1597,
+    "precio": 800,
+    "id": 13,
+    "foto": "https://images.cdn3.buscalibre.com/fit-in/360x360/ba/69/ba694cd6db3336d0fd36e75377399269.jpg",
+    "contador": 0
+  },
+  {
+    "nombre": "Martin Fierro",
+    "año": 1872,
+    "precio": 1000,
+    "id": 14,
+    "foto": "https://tienda.planetadelibros.com.ar/cdn/shop/products/portada_martin-fierro-pod__202307102113_1024x.jpg?v=1689354028",
+    "contador": 0
+  },
+  {
+    "nombre": "El Lazarillo de Tormes",
+    "año": 1554,
+    "precio": 1650,
+    "id": 15,
+    "foto": "https://images.cdn1.buscalibre.com/fit-in/360x360/81/2f/812f4cf1639b7fd75f70e529fe804df2.jpg",
+    "contador": 0
+  }
+]
